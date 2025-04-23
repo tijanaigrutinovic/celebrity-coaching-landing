@@ -58,7 +58,7 @@ h2{
 }
 
 h4{
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 2px;
     font-weight: 500;
     color: gray;
@@ -71,10 +71,10 @@ h4{
     padding: 60px 20px;
     text-align: center;
     p{
-        font-size: 24px;
+        font-size: 18px;
         color: gray;
         @media screen and (max-width: 767px) {
-            font-size: 18px;
+            font-size: 16px;
         }
     }
     @media screen and (max-width: 767px) {
@@ -149,10 +149,10 @@ h4{
                 margin: 6px 0;
             }
             p{
-                font-size: 22px;
+                font-size: 18px;
                 font-weight: 500;
                 @media screen and (max-width:767px) {
-                    font-size: 18px;
+                    font-size: 16px;
                 }
             }
         }
