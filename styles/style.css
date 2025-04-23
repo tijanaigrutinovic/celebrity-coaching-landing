@@ -207,6 +207,11 @@ h4 {
   color: #5ae4a7;
   margin-top: 40px;
 }
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 20px 10px;
+  }
+}
 .footer p {
   font-size: 24px;
   font-weight: 700;
@@ -243,8 +248,13 @@ h4 {
 }
 .footer .links .footer-text p {
   font-size: 18px;
-  color: #5ae4a7;
+  color: gray;
   font-weight: 600;
+}
+@media screen and (max-width: 767px) {
+  .footer .links .footer-text p {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

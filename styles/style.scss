@@ -184,6 +184,9 @@ h4{
     padding: 40px 20px;
     color: #5ae4a7;
     margin-top: 40px;
+    @media screen and (max-width:767px){
+        padding: 20px 10px;
+    }
     p{
         font-size: 24px;
         font-weight: 700;
@@ -216,8 +219,11 @@ h4{
             flex-direction: column;
             p{
                 font-size: 18px;
-                color: #5ae4a7;
+                color: gray;
                 font-weight: 600;
+                @media screen and (max-width:767px){
+                    font-size: 14px;
+                }
             }
         }
     }
