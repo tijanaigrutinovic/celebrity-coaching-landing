@@ -1,0 +1,250 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .main-container {
+    padding: 0 12px;
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  padding: 80px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+}
+@media screen and (max-width: 767px) {
+  .hero {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+.image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 42px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+  color: #5ae4a7;
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  font-size: 36px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+h4 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: gray;
+}
+@media screen and (max-width: 767px) {
+  h4 {
+    font-size: 18px;
+  }
+}
+
+.about {
+  padding: 60px 20px;
+  text-align: center;
+}
+.about p {
+  font-size: 24px;
+  color: gray;
+}
+@media screen and (max-width: 767px) {
+  .about p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about {
+    padding: 20px 10px;
+  }
+}
+
+.what-will-learn {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .what-will-learn {
+    padding: 20px 10px;
+  }
+}
+.what-will-learn h2 {
+  text-align: center;
+}
+.what-will-learn .learn-item {
+  background-color: #e8e8e8;
+  border-radius: 16px;
+  padding: 30px 20px;
+  width: 100%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+@media screen and (max-width: 767px) {
+  .what-will-learn .learn-item {
+    margin: 10px 0;
+  }
+}
+.what-will-learn .learn-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.what-will-learn .learn-item .icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #00c7b7;
+}
+.what-will-learn .learn-item p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+.testimonials {
+  padding: 60px 20px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .testimonials {
+    padding: 20px 10px;
+  }
+}
+.testimonials .cards {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 767px) {
+  .testimonials .cards {
+    flex-direction: column;
+  }
+}
+.testimonials .cards .card {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 0 6px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .testimonials .cards .card {
+    margin: 6px 0;
+  }
+}
+.testimonials .cards .card p {
+  font-size: 22px;
+  font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+  .testimonials .cards .card p {
+    font-size: 18px;
+  }
+}
+
+.cta {
+  text-align: center;
+  padding: 12px;
+  margin: 20px;
+}
+.cta a {
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: #5ae4a7;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+.cta a:hover {
+  background-color: #39b987;
+  color: white;
+}
+
+.footer {
+  border-top: 1px solid #ddd;
+  padding: 40px 20px;
+  color: #5ae4a7;
+  margin-top: 40px;
+}
+.footer p {
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer .links {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 767px) {
+  .footer .links {
+    flex-direction: column;
+  }
+}
+.footer .links a {
+  padding: 10px;
+  font-size: 22px;
+  color: #5ae4a7;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer .links a:hover {
+  color: #39b987;
+}
+@media screen and (max-width: 767px) {
+  .footer .links .socials {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer .links .footer-text {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.footer .links .footer-text p {
+  font-size: 18px;
+  color: #5ae4a7;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
